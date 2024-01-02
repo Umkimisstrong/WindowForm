@@ -1,0 +1,17 @@
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\bin\Debug\Material Firebase Todo Winform App.exe.config
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\bin\Debug\Material Firebase Todo Winform App.exe
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\bin\Debug\Material Firebase Todo Winform App.pdb
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v16.2.dll
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v16.2.dll
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\bin\Debug\Infragistics4.Win.Portable.Core.v16.2.dll
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v16.2.xml
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v16.2.xml
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\bin\Debug\Infragistics4.Win.Portable.Core.v16.2.xml
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\obj\Debug\Material Firebase Todo Winform App.csprojResolveAssemblyReference.cache
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\obj\Debug\Material_Firebase_Todo_Winform_App.Form1.resources
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\obj\Debug\Material_Firebase_Todo_Winform_App.Properties.Resources.resources
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\obj\Debug\Material_Firebase_Todo_Winform_App.todo_item.resources
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\obj\Debug\Material Firebase Todo Winform App.csproj.GenerateResource.Cache
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\obj\Debug\Material Firebase Todo Winform App.exe.licenses
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\obj\Debug\Material Firebase Todo Winform App.exe
+D:\Source\2024\WinformTest\WindowForm\Material Firebase Todo Winform App\Material Firebase Todo Winform App\obj\Debug\Material Firebase Todo Winform App.pdb
