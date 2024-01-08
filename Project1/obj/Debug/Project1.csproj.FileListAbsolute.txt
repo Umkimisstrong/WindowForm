@@ -1,0 +1,8 @@
+C:\Project\WindowForm\Project1\obj\Debug\Project1.csproj.AssemblyReference.cache
+C:\Project\WindowForm\Project1\obj\Debug\Project1.csproj.SuggestedBindingRedirects.cache
+C:\Project\WindowForm\Project1\obj\Debug\Project1.csproj.CoreCompileInputs.cache
+C:\Project\WindowForm\Project1\bin\Debug\Project1.exe.config
+C:\Project\WindowForm\Project1\bin\Debug\Project1.exe
+C:\Project\WindowForm\Project1\bin\Debug\Project1.pdb
+C:\Project\WindowForm\Project1\obj\Debug\Project1.exe
+C:\Project\WindowForm\Project1\obj\Debug\Project1.pdb
