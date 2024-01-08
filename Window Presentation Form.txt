@@ -1,0 +1,125 @@
+-- Windows Forms Application Life Cycle
+
+
+-- Stage			| Description					| Ways to Customize
+
+-> Application is		-------------------------------------------------------------------------->     | 1. WinApplication object is created                  
+   created													|    - An instance of the WinApplication is created, This is performed by
+														|      the Program.Main method, automatically generated in your Windows Forms
+														|      application project
+
+														|
+														| 2. Initial Application Initialization
+														|    - A newly created application is initialized. The settings that are specified in
+														|      the configuration file's appSettings section are read to application:
+														|   
+														|    - The location to be used to store the Model.User.xafml file is specified by the
+														|      UserModelDiffsLocation Key.
+														|
+														|    - The location to be used to store the application's Log file is specified by the
+														|      TraceLogLocation Key.
+
+														|
+														| 3. Application Initialization by the Designer
+														|    - Then, the application is initialized by the values specified in the Application Designer.
+														|      This is performed by the InitializeComponent method, automatically called in the
+														|      constructor of Your WinApplication class.
+														|
+														|    - The XafApplication.Modules collection is populated by the modules added to the Modules
+														|      section in the Designer. Each module is set up. This means that the current WinApplication
+														|      instance is assigned to the ModuleBase.Application property
+														|
+														|    - The XafApplication.Connection property is set to the object of the type specified in the
+														|      Designer's Connection section. The connetion string is specified in the Properties grid
+														|      when the Connection section is selected.
+														|
+														|    - The XafApplication.Security property is set to the object of the type specified in the
+														|      Designer's Security section. The authentication strategy to by used by the Security System
+														|      is specified in the same section. The User type to be used by the Security System is specified
+														|      in the Properties grid whe Security section is selected.
+														|
+														|    - The XafApplication.ApplicationName property is set to the value that is specified in the
+														|      Properties grid when the Application section is selected.
+
+														|
+														| 4. Application Initialization by the Setup method
+														|    - The XafApplication.Setup method is called, This is performed by the Program.Main method that
+														|      is automatiaclly generated in your Windows Forms application project. 
+														|
+														|      There are several overloads of the Setup method. By default, the method without parameters is
+														|      called. It leaves the properties that are already initialized as they are, and proceeds with the
+														|      initialization process using default values:
+														|
+														|    - A default splash screen form (DevExpress.ExpressApp.win.core.SplashScreen) is shown.
+														|
+														|    - A default Object Space Provider is created using the connection string specified by the 
+														|      XafApplication.ConnectionString property.
+														|
+														|    - A default Controllers Manager is created. This object contains a collection of all the Controllers
+														|      that are declared in the registered modules.
+														|
+														|    - A default Modules Manager is created. This object contains the Modules collection with the modules
+														|      to be used by the application. This collection is populated by the modules from the XafApplication.Modules
+														|      collecion. In addition, the SystemModule is added as a default module.
+														|
+														|    - A default Application Model Differences Store is created.
+														|
+														|    - The Object Space Provider and Controllers Manager are assigned to the appllicatioin's corresponding
+														|      properties: XafApplication.ObjectSpace Provider and ControllersManager.
+														|
+														|    - The modules from the Modules Manager's Modules collection are added to the XafApplication.Modules collection
+														|      of the current application, since at this step the latter collection includes the modules that are only added
+														|      via the Application Designer.
+														|
+														|    - The Application Model manager which manages the creation and initialization of the Application Model is instantiated.
+														|
+														|    - The Application Model is created. Internally, the Application Moodel has a layered stucture, so at first, the actual
+														|      layers that comprise the Application Model internals are creaed:
+														|
+														|    - The zero layer of the Application Model is created. Initially, it is empty, It is filled with data on demand,
+														|      during the application life cycle.
+														|
+														|    - A layer for each module used in the application is created. This layer is filled with data from the
+														|      Model.DesignedDiffs.xafml file that contains Application Model differences created in a particular module.
+														|
+														|    - A layer for the application project is created. This layer is filled with data from Model.xafml file that
+														|      contains Application Model differences created in the application project.
+														|
+														|    - Second, all the created layers are wrapped with the master layer.
+														|
+														|    - The final state of the Applicatioin Model is assigned to the XafApplication.Model property.
+														|
+
+
+-> Splash screen is		| The ISplash.Start method of the ISplash object | 
+   invoked			  assigned to WinApplicationi.SplashScreen 
+				  method is called
+
+-> An end-user is		| 
+   authenticated
+
+-> Start-up Popup Window	| A collection of Popup Window Show Actions is
+   Show Actions are		  populated by the Actions that are registered
+   excuted			  as start-up Actions in modules used by the
+				  application. For instance, the ChangePassword
+				  Logon represents a start-up Action. A pop-up 
+				  window is displayed for each Action after an 
+				  end-user has executed or canceled the previous
+				  Action.
+
+-> Main window is shown		| The application object asks its Show View
+				  Strategy to show a main window. Since, at this
+				  moment, the Show View Strategy is requested for
+				  the first time, it has not yet been created, So,
+				  an instance of the ShowInMultipleWindowsStrategy
+				  class is created, and then its ShowStartup Window
+				  method is called.
+
+
+-> Splash screen is closed	| A splash screen is closed by the ISplash.Stop 
+				  method.
+
+-> Main window is		| A user can close the main window by executing 
+   displayed until user		  the Exit or LogOff Action. The Exit Action 
+   closes it 			  closes the application. The LogOff Action closes 
+				  the main form and re-invokes the logon form
