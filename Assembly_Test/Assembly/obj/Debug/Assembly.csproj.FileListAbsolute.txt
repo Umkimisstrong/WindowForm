@@ -1,0 +1,7 @@
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly\bin\Debug\Assembly.pdb
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly\obj\Debug\Assembly.Properties.Resources.resources
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly\obj\Debug\Assembly.csproj.GenerateResource.Cache
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly\obj\Debug\Assembly.pdb
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly\bin\Debug\Assembly.dll.config
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly\bin\Debug\Assembly.dll
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly\obj\Debug\Assembly.dll

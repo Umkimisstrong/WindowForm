@@ -1,0 +1,9 @@
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly_Test\bin\Debug\Assembly_Test.exe.config
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly_Test\bin\Debug\Assembly_Test.exe
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly_Test\bin\Debug\Assembly_Test.pdb
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly_Test\obj\Debug\Assembly_Test.csprojResolveAssemblyReference.cache
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly_Test\obj\Debug\Assembly_Test.MainForm.resources
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly_Test\obj\Debug\Assembly_Test.Properties.Resources.resources
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly_Test\obj\Debug\Assembly_Test.csproj.GenerateResource.Cache
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly_Test\obj\Debug\Assembly_Test.exe
+D:\Source\2024\WinformTest\WindowForm\Assembly_Test\Assembly_Test\obj\Debug\Assembly_Test.pdb
